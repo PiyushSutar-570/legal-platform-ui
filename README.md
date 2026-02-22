@@ -44,11 +44,10 @@ git clone https://github.com/PiyushSutar-570/legal-platform-ui.git
 cd legal-platform-ui
 npm install
 npm run dev
+```
 
 Open:
 http://localhost:3000
-```
-
 
 🌙 Dark Mode
 
