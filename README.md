@@ -58,6 +58,13 @@ Theme preference is stored in localStorage and applied globally using class-base
 Frontend-focused UI project.
 Designed for portfolio and SaaS-style interface demonstration.
 
+UI:
+DARK :
+<img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/ff24fe55-8846-43e9-a1c2-80d50907e433" />
+
+LIGHT :
+<img width="1913" height="914" alt="image" src="https://github.com/user-attachments/assets/3fa4a3f3-fdf8-4c4e-9ac8-40d47b4f40ba" />
+
 👨‍💻 Author
 
 Piyush Sutar
