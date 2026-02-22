@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Legal Platform UI
 
-## Getting Started
+A modern SaaS-style legal management landing page built with **Next.js 14** and **Tailwind CSS**.
 
-First, run the development server:
+This project focuses on advanced layout composition, floating UI animations, reusable components, and dark mode implementation.
+
+---
+
+## 🚀 Live Features
+
+- ✨ Floating animated hero cards
+- 🌙 Dark / Light mode with persistent state
+- 🎨 Modern SaaS UI design
+- 📱 Responsive layout
+- ♻️ Reusable component architecture
+- 💡 Clean animation using CSS keyframes
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js 14 (App Router)**
+- **React**
+- **Tailwind CSS (v4)**
+- **Lucide Icons**
+- CSS Custom Animations
+
+---
+
+## 🧠 What This Project Demonstrates
+
+- Complex absolute positioning & layout balancing
+- Controlled animation using CSS variables
+- Dark mode implementation (class-based)
+- Component reusability (FloatingCard variants)
+- Clean UI composition similar to production SaaS apps
+
+---
+
+## 📦 Getting Started
 
 ```bash
+git clone https://github.com/PiyushSutar-570/legal-platform-ui.git
+cd legal-platform-ui
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🌙 Dark Mode
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Theme preference is stored in localStorage and applied globally using class-based dark mode.
 
-## Learn More
+📌 Status
 
-To learn more about Next.js, take a look at the following resources:
+Frontend-focused UI project.
+Designed for portfolio and SaaS-style interface demonstration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👨‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Piyush Sutar
+CSE (AI & ML) | MERN Developer | DSA Enthusiast
