@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0px) rotate(var(--rotate));
+  }
+  50% {
+    transform: translateY(-20px) rotate(var(--rotate));
+  }
+  100% {
+    transform: translateY(0px) rotate(var(--rotate));
+  }
+}
+
+.float {
+  animation: floatUpDown 6s ease-in-out infinite;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
